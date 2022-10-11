@@ -58,7 +58,7 @@ public class PersonControllerTest {
     }
 
     @Test
-    public void getPersonDetailsByAccNo_validRequest_returnSuccess() {
+    public void getPersonDetailsById_validRequest_returnSuccess() {
 
         PersonDto personDetails = new PersonDto();
         personDetails.setPersonId(11);
